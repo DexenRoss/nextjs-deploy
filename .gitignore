@@ -1,5 +1,22 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# ========== ENTORNO CONDA ESPECÍFICO ==========
+# Tu entorno virtual específico de Conda
+miniconda3/envs/Dexen/
+
+# También agrega estas por si creas más entornos
+miniconda3/envs/*
+
+# ========== CONDA GENERAL ==========
+# Archivos de configuración y cache de conda
+.conda/
+conda/
+conda-bld/
+.condarc
+conda-meta/
+*.conda
+*.tar.bz2
+
 # dependencies
 /node_modules
 /.pnp
